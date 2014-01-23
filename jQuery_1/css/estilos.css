@@ -1,0 +1,11 @@
+#box, #box_2, #box_3 {
+	width: 50%;
+	height: 200px;
+	background: #f1f1f1;
+	box-shadow: 2px 2px 5px gray;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+}

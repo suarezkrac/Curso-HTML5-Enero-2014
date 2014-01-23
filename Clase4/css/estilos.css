@@ -1,0 +1,16 @@
+#circulo{
+	color: white;
+	background: red;
+	border-radius: 50px;
+	text-align: center;
+	padding-top: 35px;
+	-webkit-transform: scale(1) rotate(0deg);
+	-webkit-transition: -webkit-transform 2s, background 1s;
+	height: 65px;
+	width: 100px;
+}
+
+#circulo:hover{
+	background:blue;
+	-webkit-transform: scale(0.5) rotate(360deg);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mi sitio HTML5</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<header>
+			<h1>Bienvenido a mi sitio HTML5</h1>
+		</header>
+		<nav>
+			<ul id="menu_principal">
+				<li id="boton1" class="boton redondo">Inicio</li>
+				<li id="boton2" class="boton redondo">Acerca de</li>
+				<li id="boton3" class="boton redondo">Contacto</li>
+			</ul>
+		</nav>
+		<section>
+			<article contenteditable="true">
+				<p>Este es un texto de contenido</p>
+			</article>
+		</section>
+		<section>
+			<article>
+				<!-- ESte es un comentaario -->
+				<video controls="controls" poster="img/sintel.jpg">
+					<source src="assets/sintel.mp4" type="video/mp4">
+					<source src="assets/sintel.ogg" type="video/ogg">
+					<source src="assets/sintel.webm" type="video/webm">
+				</video>
+				<br><br>
+				<audio controls="controls" autoplay="autoplay" width="500">
+					<source src="assets/0802.ogg" type="audio/ogg">
+
+				</audio>
+
+			</article>
+			<article>
+				<table>
+					<tr>
+						<td>Nombre:</td>
+						<td><input type="text" placeholder="Escribe tu nombre.." required></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="email" placeholder="Digite su mail.." required></td>
+					</tr>
+					<tr>
+						<td>Fecha:</td>
+						<td><input type="date" value="2014-01-13"></td>
+					</tr>
+					<tr>
+						<td>Color:</td>
+						<td><input type="color"></td>
+					</tr>
+					<tr>
+						<td>Valora este sitio:</td>
+						<td><input type="range" min="0" max="10" value="3" step="2"></td>
+					</tr>
+					<tr>
+						<td>Numero:</td>
+						<td><input type="number" min="0" max="10" step="2"></td>
+					</tr>
+				</table>
+			</article>
+		</section>
+		<footer>
+			<p>Desarrollado por Giovanny Suarez - Medellín (Antioquia) </p>
+		</footer>
+		<script src="js/prefixfree.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

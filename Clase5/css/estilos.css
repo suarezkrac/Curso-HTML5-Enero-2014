@@ -1,0 +1,47 @@
+@font-face{
+	font-family: "miFuenteWeb";
+	src: url("../assets/alexbrush-regular-webfont.eot") format('eot'),
+			url("../assets/alexbrush-regular-webfont.svg") format('svg'),
+			url("../assets/alexbrush-regular-webfont.ttf") format('ttf'),
+			url("../assets/alexbrush-regular-webfont.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@-webkit-keyframes miPrimeraAnimacion{
+	0%{
+		-webkit-transform: translate(10px, 10px);
+		background:red;
+	}
+	25%{
+		-webkit-transform: translate(150px, 10px);
+		background:blue;
+	}
+	50%{
+		-webkit-transform: translate(150px, 150px);
+		background:green;
+	}
+	75%{
+		-webkit-transform: translate(10px, 150px);
+		background:orange;
+	}
+	100%{
+		-webkit-transform: translate(10px, 10px);
+		background:red;
+	}
+}
+
+#circulo{
+	font-family:'miFuenteWeb', cursive;
+	-webkit-animation: miPrimeraAnimacion 5s;
+	/*-webkit-animation-delay:2s;*/
+	-webkit-animation-iteration-count: infinite;
+	color: white;
+	background: red;
+	border-radius: 50px;
+	text-align: center;
+	padding-top: 35px;
+	height: 65px;
+	width: 100px;
+}
+

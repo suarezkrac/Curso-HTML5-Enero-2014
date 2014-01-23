@@ -1,0 +1,45 @@
+h1
+{
+	color: red;
+}
+section{
+
+
+	/*background-image: url('../img/sintel.jpg');
+	background-repeat: no-repeat;
+	background-color: red;*/ 
+
+	background-image: -webkit-linear-gradient(top, rgba(0,0,255,0.8) 0%, rgba(255,0,0,0.2) 100%);
+	background-image: -ms-linear-gradient(top, rgba(0,0,255,0.8) 0%, rgba(255,0,0,0.2) 100%);
+	background-image: -o-linear-gradient(top, rgba(0,0,255,0.8) 0%, rgba(255,0,0,0.2) 100%);
+	background-image: -moz-linear-gradient(top, rgba(0,0,255,0.8) 0%, rgba(255,0,0,0.2) 100%);
+	background-color: yellow;
+
+	border-radius: 15px;
+	box-shadow: inset 5px 5px 5px gray,  5px 5px 5px gray;
+	text-shadow: 5px 5px 5px red;
+
+
+
+	border: 1px solid gray;
+	display: inline-block;
+	height: 600px;
+	margin: 20px;
+	padding: 40px 20px;
+	vertical-align: top;
+	width: 300px;
+}
+video{
+	width: 90%;
+}
+.boton{
+	color: blue;
+	display: inline-block;
+
+}
+#boton2{
+	color: red;
+}
+#menu_principal{
+	text-align: center;
+}

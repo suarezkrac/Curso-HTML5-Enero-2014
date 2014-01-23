@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=0;">
+	<style type="text/css">
+	.cajas{
+		width: 100px;
+		height: 350px;
+		background: #ccc;
+		border: 1px solid gray;
+	}
+	#caja1{
+		top:100px;
+		width: 80%;
+		height: 40px;
+		position: absolute;
+		background: black;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#caja2, #caja3{
+		display: inline-block;
+		vertical-align: top;
+
+		width: 300px;
+	}
+	#caja2{
+		text-align: justify;
+	}
+	#bloque{
+		width: 150px;
+		height: 250px;
+		background:blue;
+		position: relative;
+		top: 50px;
+	}
+	section{
+		text-align: center;
+		margin-top: 200px;
+	}
+	.cajas{
+		text-align: left;
+	}
+	#caja4{
+		position: fixed;
+		top: 300px;
+		right: 0;
+		background: red;
+		height: 50px;
+	}
+	@media screen and (max-width: 720px){
+		#caja2{
+			background:green;
+		}
+	}
+	@media screen and (max-width: 480px){
+		#caja4{
+			display: none;
+		}
+	}
+
+	</style>
+
+
+</head>
+<body>
+	<div id="caja1" class="cajas"></div>
+	<section>
+		<div id="caja2" class="cajas"><div id="bloque"></div></div>
+		<div id="caja3" class="cajas">TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO </div>
+	</section>
+	<div id="caja4" class="cajas"></div>
+</body>
+</html>

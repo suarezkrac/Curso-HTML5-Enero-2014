@@ -1,0 +1,42 @@
+body{
+	background: rgba(0,0,0,0.3);
+	font-family: "Verdana";
+}
+h2{
+	color: white;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	font-size: 12px;
+	padding: 5px;
+	position: relative;
+	text-align: justify;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.4);	
+}
+img, video{
+	position: relative;
+	width: 300px;
+	height: 150px;
+}
+article{
+	height: 40px;
+	overflow: hidden;
+	-webkit-transition:height 2s;
+}
+article:focus{
+	height: 250px;
+}
+#bloque{
+	border: 2px solid white;
+	border-radius: 25px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	margin: 100px auto;
+	width: 300px;
+	position: fixed;
+	-webkit-transform:rotate(-90deg);
+}
