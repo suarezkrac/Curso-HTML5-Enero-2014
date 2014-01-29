@@ -1,8 +1,64 @@
+section{
+	width: 100%;
+	min-height: 280px !important;
+	float: none !important;
+	text-align: center;
+
+}
+footer{
+	background: black;
+	color: white;
+	height: 80px;
+	float: none;
+}
+article{
+	width: 980px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
 .navbar-nav li{
 	list-style: none;
 	margin-right: 10px;
-	padding-top: 10px;
+	padding-top: 30px;
 }
 .navbar-nav li a:hover{
 	text-decoration: none;
+}
+#parallax, #contacto{
+	background: #f1f1f1;
+}
+#quienes-somos p{
+	width: 320px;
+	text-align: left;
+}
+#quienes-somos figure, #quienes-somos p{
+	display: inline-block;
+	vertical-align: top;
+}
+#servicios li{
+	display: inline-block;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	margin: 5px 10px;
+	background-size: 100% 100%;
+}
+#servicio-1{
+	background: url('../img/servicio1.png');
+}
+#servicio-2{
+	background: url('../img/servicio2.jpg');
+}
+#servicio-3{
+	background: url('../img/servicio3.png');
+}
+#bar-logo{
+	width: 110px;
+height: 50px;
+background: url('../img/logo.png') no-repeat;
+background-size: auto 100%;
 }
