@@ -12,18 +12,28 @@
 </head>
 <body>
 	<header>
-		<div id="bar-logo"></div>
-		<nav>
-			<ul>
-				<li><a href="#quienes-somos">Quienes Somos</a></li>
-				<li><a href="#servicios">Servicios</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-			</ul>
-		</nav>
+		<div class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle Navegación</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+          		</button>
+          		<a class="navbar-brand" href="#"><div id="bar-logo"></div></a>
+        	</div>
+			<nav>
+				<ul class="navbar-nav">
+					<li><a href="#quienes-somos">Quienes Somos</a></li>
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
 		<div id="slider">
 		</div>
 	</header>
-	<section id="quienes-somos">
+	<section class="col-md-12" id="quienes-somos">
 		<article>
 			<h2>QUIENES SOMOS</h2>
 			<figure>
@@ -33,9 +43,9 @@
 			<p>Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum </p>
 		</article>
 	</section>
-	<section id="parallax">
+	<section class="col-md-12" id="parallax">
 	</section>
-	<section id="servicios">
+	<section class="col-md-12" id="servicios">
 		<article>
 			<h2>SERVICIOS</h2>
 			<ul>
@@ -45,7 +55,7 @@
 			</ul>
 		</article>
 	</section>
-	<section id="contacto">
+	<section class="col-md-12" id="contacto">
 		<article>
 			<h2>CONTACTO</h2>
 			<form>
