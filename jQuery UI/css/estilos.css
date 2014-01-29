@@ -1,0 +1,22 @@
+.box{
+	width: 100px;
+	height: 100px;
+	box-shadow: 2px 2px 8px gray;
+	background: #f1f1f1;
+}
+ul{
+	list-style: none;
+}
+li{
+	border: 1px solid gray; 
+	width: 200px; 
+	height: 30px;
+}
+ul .ui-selected{
+	background: #ccc; 
+	color: white
+}
+ul .ui-selecting{
+	background: red; 
+	color: white
+}

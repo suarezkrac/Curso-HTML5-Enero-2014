@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mostrar{
+	opacity: 1 !important;
+}
+#main{
+	opacity: 0;
+}
+#background_lightbox{
+	background: rgba(0,0,0,0.8);
+	height: 100%;
+	position: fixed;
+	opacity: 0;
+	transition: opacity 2s;
+	-moz-transition: opacity 2s;
+	-webkit-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	-ms-transition: opacity 2s;
+	width: 100%;
+	z-index: 1;
+}
+#lightbox{
+	opacity: 0;
+	transition: opacity 4s;
+	-moz-transition: opacity 4s;
+	-webkit-transition: opacity 4s;
+	-o-transition: opacity 4s;
+	-ms-transition: opacity 4s;
+	background: white;
+	position: absolute;
+	width: 50%;
+	height: 400px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+	top: 120px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px black;
+	text-align: center;
+}
+#lightbox h3{
+	margin: 150px 0px 20px 0px;
+	font-size: 28px;
+	font-family: "Myriad Pro";	
+}
+#lightbox input{
+	border-radius: 6px;
+}
+#user{
+	position: relative;
+	left: 10px;
+}
+button{
+	position: relative;
+	top: 10px;
+	left: 90px;
+}
