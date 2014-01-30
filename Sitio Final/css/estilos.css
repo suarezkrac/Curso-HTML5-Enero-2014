@@ -69,7 +69,10 @@ background-size: auto 100%;
 
 #slider {text-align:center;position: relative; overflow: auto; width: 100% !important;  }
 
-#slider li { list-style: none; padding-top: 160px;  }
+#slider #container-slider li { list-style: none; padding-top: 160px;  }
+#slider ol{ margin: 0; padding: 0;}
+
+
 #slider ul li { float: left; background-size: cover;}
 #slider ul {margin:0; padding: 0; }
 .navbar{margin: 0;}
@@ -95,10 +98,6 @@ background-size: auto 100%;
 #slide_3{
 	background: url('../img/wood.jpg') no-repeat;	
 }
-
-
-
-
 
 .dot {
 	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
@@ -132,4 +131,37 @@ background-size: auto 100%;
 .dots li.active {
 	background: #fff;
 	opacity: 1;
+}
+
+#contacto article{
+	width: 600px;
+	position: relative;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+
+}
+#contacto input, #contacto textarea{
+	width: 200px;
+	position: relative;
+	
+}
+#contacto button{
+	position: absolute;
+	left: 212px;
+	top: 110px;
+
+}
+#campo_1{
+	left: 3px;
+}
+#campo_2{
+	left: 10px;
+}
+#contacto form, #contacto div{
+	display: inline-block;
+	vertical-align: top;
 }

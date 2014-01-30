@@ -32,8 +32,8 @@
 				</div>
 			</div>
 		</nav>
-		<div id="slider">
-			<ul>
+		<div id="slider" class="has-dots">
+			<ul id="container-slider">
 				<li id="slide_1">
 					<h2>Fluid, flexible, fantastically minimal.</h2>
 					<p>No fancy effects or unnecessary markup, and it’s less than 3kb.</p>
@@ -75,17 +75,22 @@
 		</article>
 	</section>
 	<section class="col-md-12" id="contacto">
+		<h2>CONTACTO</h2>
 		<article>
-			<h2>CONTACTO</h2>
+			
 			<form>
 				<label>Nombre:</label>
-				<input type="text" placeholder="Escriba su nombre">
+				<input id="campo_1" type="text" placeholder="Escriba su nombre"><br>
 				<label>Correo:</label>
-				<input type="text" placeholder="Escriba su correo">
+				<input id="campo_2" type="text" placeholder="Escriba su correo"><br>
 				<label>Mensaje:</label>
-				<textarea placeholder="Escriba su mensaje"></textarea>
+				<textarea id="campo_3" placeholder="Escriba su mensaje"></textarea><br>
 				<button>Enviar</button>
 			</form>
+			<div id="mapa">
+				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Hotel+Dann+Carlton+Medellin,+El+Poblado,+Medell%C3%ADn+-+Antioquia,+Colombia&amp;aq=0&amp;oq=hotel+dan+&amp;sll=6.235784,-75.575294&amp;sspn=0.051962,0.055189&amp;ie=UTF8&amp;hq=Hotel+Dann+Carlton+Medellin,&amp;hnear=El+Poblado,+Medell%C3%ADn,+Antioquia,+Colombia&amp;ll=6.216052,-75.568854&amp;spn=0.02136,0.006295&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.es/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Hotel+Dann+Carlton+Medellin,+El+Poblado,+Medell%C3%ADn+-+Antioquia,+Colombia&amp;aq=0&amp;oq=hotel+dan+&amp;sll=6.235784,-75.575294&amp;sspn=0.051962,0.055189&amp;ie=UTF8&amp;hq=Hotel+Dann+Carlton+Medellin,&amp;hnear=El+Poblado,+Medell%C3%ADn,+Antioquia,+Colombia&amp;ll=6.216052,-75.568854&amp;spn=0.02136,0.006295&amp;t=m" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
+			</div>
+
 		</article>
 	</section>
 	<footer>
@@ -99,7 +104,7 @@
 	<script src="js/prefixfree.min.js"></script>
 
 	<script src="js/unslider.min.js"></script>
-	
+
 	<script src="js/script.js"></script>
 </body>
 </html>
