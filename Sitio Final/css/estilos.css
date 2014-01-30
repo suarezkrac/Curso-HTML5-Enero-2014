@@ -67,13 +67,25 @@ background-size: auto 100%;
 	height: 400px !important;
 }
 
-#slider {position: relative; overflow: auto; width: 100% !important; }
+#slider {text-align:center;position: relative; overflow: auto; width: 100% !important;  }
 
-#slider li { list-style: none; }
+#slider li { list-style: none; padding-top: 160px;  }
 #slider ul li { float: left; background-size: cover;}
 #slider ul {margin:0; padding: 0; }
 .navbar{margin: 0;}
-
+#slider h2{ color: white; font-weight: bold; font-size: 38px; text-shadow: 1px 1px 2px black;}
+#slider p{
+	color: rgba(255,255,255,.6);
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+	margin-bottom: 30px;
+}
+#slider a{
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding: 10px 5px;
+}	
 #slide_1{
 	background: url('../img/subway.jpg') no-repeat;
 }
@@ -88,7 +100,7 @@ background-size: auto 100%;
 
 
 
-.banner .dot {
+.dot {
 	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
 	-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
 	-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
