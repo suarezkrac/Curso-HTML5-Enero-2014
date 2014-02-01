@@ -204,5 +204,31 @@ background-size: auto 100%;
 #objeto_zapato{
 	background: url("../img/nike.png") 50% 0% no-repeat fixed;
 	left: 100px;
-	
+
+}
+@media screen and (max-width: 980px){
+	article {
+		width: 100%;
+	}
+	#parallax-section{
+		display: none;
+	}
+}
+@media screen and (max-width: 620px){
+	section{
+		height: 400px !important;
+	}
+	#contacto article {
+		width: 100%;
+	}
+	#mapa{
+		margin-top: 60px;
+	}
+	#quienes-somos{
+		height: 480px !important;
+	}
+	#servicios
+	{
+		height: 650px !important;
+	}
 }
