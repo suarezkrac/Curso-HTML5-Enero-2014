@@ -147,13 +147,11 @@ background-size: auto 100%;
 #contacto input, #contacto textarea{
 	width: 200px;
 	position: relative;
-	
 }
 #contacto button{
 	position: absolute;
 	left: 212px;
 	top: 110px;
-
 }
 #campo_1{
 	left: 3px;
@@ -164,4 +162,47 @@ background-size: auto 100%;
 #contacto form, #contacto div{
 	display: inline-block;
 	vertical-align: top;
+}
+#parallax-section{
+	position: relative;
+	min-height: 900px !important;
+	width: 100%;
+	min-width: 1000px;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+}
+#parallax-section article{
+	position: absolute;
+	top: 200px;
+	width: 650px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 4;
+}
+#parallax-section article h3{
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+}
+#parallax-section article p{
+	font-size: 28px;
+}
+.parallax{
+	height: 1400px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#objeto_fondo{
+	background: url("../img/bottle.jpeg") 50% 0% no-repeat fixed;
+}
+#objeto_zapato{
+	background: url("../img/nike.png") 50% 0% no-repeat fixed;
+	left: 100px;
+	
 }
